@@ -1,0 +1,38 @@
+body {background-color: rgb(19, 233, 248);
+      margin: 20;
+}
+p {background-color: cadetblue(244, 244, 244);
+font-family:'Courier New';}
+h1 {
+    color: rgb(255, 0, 200);
+    text-align: center;
+    font-family: 'Gill Sans MT';
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;                                    
+    background-color: rgb(158, 122, 192); 
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li {
+    float:left;
+} 
+
+li a{
+  display: block;
+  color:teal(204, 169, 122);
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color:rgb(5, 247, 207);
+}
+.active {
+  background-color:
+  rgb(49, 214, 255);
+}
